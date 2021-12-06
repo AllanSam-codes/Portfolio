@@ -7,6 +7,7 @@
 
 body {
     font-family: 'Oswald', sans-serif;
+    margin: 0px;
 }
 
 hr {
@@ -98,6 +99,7 @@ hr {
 }
 
 .coding .coding-heading {
+    text-align: center;
     color: var(--dark-blue);
     padding: 1rem;
 }
@@ -119,4 +121,23 @@ hr {
 
 .ow {
     background-color: var(--off-white);
+}
+
+
+/*footer*/
+
+.footer {
+    background-color: var(--primary-color);
+    color: blanchedalmond;
+    padding: 2rem 1rem;
+    border-top-right-radius: 1rem;
+    text-align: center;
+}
+
+.footer .link {
+    color: cornsilk;
+}
+
+.footer ul {
+    padding-inline-start: 0px
 }
